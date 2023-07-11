@@ -34,14 +34,14 @@
         </div>
         <nav class="nav-bar">
             <ul class="nav-bar__list">
-                <li class="nav-bar__item"><a class="nav-bar__link active" href="#">Inicio</a></li>
-                <li class="nav-bar__item"><a class="nav-bar__link" href="#">Productos</a></li>
-                <li class="nav-bar__item"><a class="nav-bar__link" href="#">Nosotros</a></li>
-                <li class="nav-bar__item"><a class="nav-bar__link" href="#">Contacto</a></li>
+                <li class="nav-bar__item"><a class="nav-bar__link active" href="#home">Inicio</a></li>
+                <li class="nav-bar__item"><a class="nav-bar__link" href="#products">Productos</a></li>
+                <li class="nav-bar__item"><a class="nav-bar__link" href="#about-us">Nosotros</a></li>
+                <li class="nav-bar__item"><a class="nav-bar__link" href="#contact">Contacto</a></li>
             </ul>
         </nav>
     </header>
-    <seccion class="banner">
+    <seccion class="banner" id="home">
         <div class="circle"></div>
         <div class="banner__texto">
             <h2>Se audaz, divertido y disfruta de <span>habanitos</span> hechos con amor</h2>
@@ -63,7 +63,7 @@
             <li><a target="_blank" href="https://wa.link/380anr" target="_blank"><img src="./img/whatsapp-bw.png" alt=""></a></li>
         </ul>
     </seccion>
-    <section class="splide products" aria-label="Slide Container Example">
+    <section class="splide products" id="products" aria-label="Slide Container Example">
         <h2 class="products__title title">Toppings</h2>
         <div class="splide__track">
           <ul class="splide__list">
@@ -143,7 +143,7 @@
         </div>
         <ul class="splide__pagination"></ul>
       </section>
-      <section class="about-us animation-circle">
+      <section class="about-us animation-circle" id="about-us">
         <div class="about-us__main">
             <img class="about-us__content-image" src="./img/promo.png" alt="Sobre Nosotros imagen">
             <div class="about-us__content">
@@ -155,7 +155,7 @@
             </div>
         </div>
       </section>
-      <footer>
+      <footer id="contact">
         <div class="waves">
             <div class="wave" id="wave1"></div>
             <div class="wave" id="wave2"></div>
