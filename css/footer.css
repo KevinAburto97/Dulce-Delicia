@@ -109,6 +109,12 @@ footer .waves{
     100% {transform: translateX(-50%);}
 }
 
+.dev {
+    position: absolute;
+    width: 10%;
+    right: 1rem;
+    bottom: 0;
+}
 
 /*.footer__contact{
     display: flex;
