@@ -1,0 +1,145 @@
+footer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: var(--color-secondary);
+    min-height: 100px;
+    padding: 20px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer__social-media-list,
+.footer__contact-list{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+footer .footer__social-media-list li{
+    list-style: none;
+}
+
+footer .footer__social-media-list li a{
+    font-size: 2em;
+    color: var(--color-white);
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+footer .footer__social-media-list li a:hover{
+    transform: translateY(-10px);
+}
+
+footer .footer__contact-list li a{
+    font-size: 1.2em;
+    margin: 0 10px;
+    display: inline-block;
+    color: var(--color-white);
+}
+
+footer .footer__contact{
+    text-align: center;
+}
+
+footer .footer__contact-title{
+    color: var(--color-gold);
+    font-weight: bold;
+    font-size: 32px;
+}
+
+footer .footer__contact-list{
+    color: var(--color-secondary);
+}
+
+footer .footer__contact p{
+    color: var(--color-gold);
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+footer .footer__logo img{
+    width: 124px;
+}
+
+footer .waves{
+    position: absolute;
+    overflow: hidden;
+    top: -100px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100px;
+}
+
+.wave{
+    background: url(./../img/wave.png); 
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    animation: animateWave 10s -3s linear infinite;
+    transform: translate3d(0, 0, 0);
+    opacity: 0.8;
+
+}
+
+.wave:nth-of-type(2) {
+    top: 0px;
+    animation: animateWave 18s linear reverse infinite;
+    opacity: 0.5;
+}
+
+.wave:nth-of-type(3) {
+    top: 0px;
+    animation: animateWave 20s -1s linear infinite;
+    opacity: 0.5;
+}
+
+
+@keyframes animateWave {
+    0% {transform: translateX(0);}
+    50% {transform: translateX(-25%);}
+    100% {transform: translateX(-50%);}
+}
+
+
+/*.footer__contact{
+    display: flex;
+    margin: auto 0;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.footer__contact p{
+    margin: 0.35rem;
+}
+
+.footer__contact-title{
+    color: var(--color-gold);
+    font-weight: bold;
+    font-size: 32px;
+} 
+
+.footer__logo img{
+    width: 240px;
+}
+
+.footer__social-media{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+
+.footer__social-media-item img{
+    width: 48px;
+    margin: 1rem;
+}*/

@@ -1,0 +1,121 @@
+@media screen and (max-width: 900px) {
+    .menu-toggle{
+        display: block;
+        cursor: pointer;
+        padding: 0 1rem;
+    }
+
+    .menu-toggle .line{
+        width: 30px;
+        height: 3px;
+        background: var(--color-secondary);
+        margin: 6px 0;
+    }
+
+    .nav-bar{
+        height: 0;
+        position: absolute;
+        top: 30vw;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: var(--color-secondary);
+        transition: 0.5s;
+        overflow: hidden;
+    }
+    .nav-bar.active{
+        height: 70vh;;
+        z-index: 99;
+    }
+
+    .nav-bar .nav-bar__list{
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+    }
+
+    .nav-bar.active .nav-bar__list{
+        opacity: 1;
+    }
+
+    .nav-bar .nav-bar__list .nav-bar__item .nav-bar__link{
+        margin-bottom: 12px;
+        color: var(--color-white);
+        font-size: 1.3rem;
+    }
+    .nav-bar .nav-bar__list .nav-bar__item .nav-bar__link:hover,
+    .nav-bar .nav-bar__list .nav-bar__item .nav-bar__link.active{
+        background: var(--color-gold);
+    }
+
+    .banner{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .circle {
+        top: 30vh;
+        height: 80%;
+    }
+
+    .banner__texto{
+        width: 80%;
+        max-width: 80%;
+        padding: 1rem 0 !important;
+    }
+
+    .banner__img{
+        width: 48% !important;
+        justify-content: center !important;
+        padding-right: 0 !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .banner .banner__img img {
+        max-width: 240px;    
+    }
+
+    .thumb {
+        position: relative;
+        left: 0;
+        transform: none;
+        margin-bottom: 1rem !important;
+    }
+
+    .sci {
+        top: 50%;
+    }
+
+    .about-us__main {
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+        max-width: 90%;
+    }
+
+    .about-us__content-image {
+        width: 70vw;
+    }
+
+    .about-us__content {
+        width: 80%;
+    }
+
+    .footer__contact {
+        padding-bottom: 1rem;
+    }
+
+    .dev{
+        position: absolute;
+        width: 28%;
+        right: 1rem;
+        bottom: 0;
+    }
+
+    footer .footer__contact p {
+        padding: 0 1rem;
+    }
+}

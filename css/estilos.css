@@ -1,0 +1,50 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color-background-main: #f4e3cf;
+    --color-white: #F9F9F9;
+    --color-main: #f4e3cf;
+    --color-gold: #d2b13f;
+    --color-secondary: #90612a;
+    --font-fugaz-one: 'Fugaz One', cursive;
+    --font-lobster: 'Lobster', cursive;
+    --font-montserrat: 'Montserrat', sans-serif;
+    --font-open-sans: 'Open Sans', sans-serif;
+}
+
+body{
+    background: var(--color-background-main);
+}
+
+header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255,255,255,0);
+    z-index: 2;
+}
+
+.logo{
+    max-width: 98px;
+    max-height: 98px;
+    margin: 1rem 3rem;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.title{
+    color: var(--color-secondary);
+    font-family: var(--font-fugaz-one);
+    font-size: 1.86rem;
+    text-align: center;
+    margin: 2rem 1rem;
+}
