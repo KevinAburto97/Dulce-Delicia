@@ -39,6 +39,27 @@
     transform: translateY(100%);
     transition: 500ms ease-in-out;
 }
+.product__cards-text > p,
+.product__cards-custom-toppings{
+    padding: 0.5rem;
+    font-size: 14px;
+    font-family: var(--font-open-sans);
+}
+
+.product__cards-custom-toppings .info{
+    color: var(--color-red);
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: var(--font-fugaz-one);
+}
+
+.product__cards-text .price{
+    background: var(--color-red);
+    border-radius: 15px;
+    padding: 0.4rem;
+}
 
 .splide__slide:hover .splide__slide__container{
     transform: scale(1.1);

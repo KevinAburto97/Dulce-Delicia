@@ -57,7 +57,7 @@
     }
 
     .circle {
-        top: 30vh;
+        top: 25vh;
         height: 80%;
     }
 
@@ -83,6 +83,15 @@
         left: 0;
         transform: none;
         margin-bottom: 1rem !important;
+    }
+
+    .product__cards-text p{
+        font-size: 12px;
+    }
+
+    .product__cards-text .price {
+        padding: 0.3rem;
+        font-size: 13px;
     }
 
     .sci {

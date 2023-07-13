@@ -8,7 +8,7 @@ var splide = new Splide( '.splide.products', {
     perPage     : 4,
     type        : 'loop',
     cover       : true,
-    height      : '15rem',
+    height      : '25rem',
     focus       : 'center',
     width       : '100vw',
     breakpoints : {
